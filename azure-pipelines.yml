@@ -19,4 +19,4 @@ steps:
   displayName: 'Run a multi-line script'
 - task: PowerShell@2
   inputs:
-    filePath: 'madhan0703/remoterepo/helloworld.ps1'
+    filePath: '$(System.DefaultWorkingDirectory)'
